@@ -36,7 +36,7 @@ def chat(user_message):
 
     try:
         response = client.models.generate_content(
-            model="gemini-3.7-flash",
+            model="gemini-3.5-flash",
             contents=conversation
         )
 
